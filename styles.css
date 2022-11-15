@@ -99,7 +99,7 @@ a {
 }
 
 
-@media (max-width: 1121px) {
+@media (max-width: 1105px) {
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
@@ -111,7 +111,7 @@ a {
   }
 
   .container {
-  margin-top: 20%;
+  margin-top: 20rem;
   /* margin-right: px; */
 
   }
