@@ -99,7 +99,7 @@ a {
 }
 
 
-@media (max-width: 1104px) {
+@media (max-width: 1065px) {
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
@@ -119,8 +119,8 @@ a {
   .btn {
     margin: 25px;
     display: inline-block;
-    height: 195px;
-    width: 195px;
+    height: 190px;
+    width: 190px;
     border: 5px solid black;
     border-radius: 20%;
   }
