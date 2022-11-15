@@ -103,8 +103,8 @@ a {
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin:  5%;
+    font-size: 3.2rem;
+    margin:  4%;
     color: #FEF2BF;
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -119,8 +119,8 @@ a {
   .btn {
     margin: 25px;
     display: inline-block;
-    height: 195px;
-    width: 195px;
+    height: 200px;
+    width: 200px;
     border: 7px solid black;
     border-radius: 20%;
   }
