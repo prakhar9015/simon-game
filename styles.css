@@ -119,9 +119,9 @@ a {
   .btn {
     margin: 25px;
     display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 8px solid black;
+    height: 170px;
+    width: 170px;
+    border: 5px solid black;
     border-radius: 20%;
   }
 
