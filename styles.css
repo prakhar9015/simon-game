@@ -70,7 +70,7 @@ a {
 #click-btn {
   position: absolute;
   right: 80%;
-  top: 35%;
+  top: 220px;
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -98,7 +98,7 @@ a {
 }
 
 
-@media (max-width: 620px) {
+@media (max-width: 880px) {
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
@@ -111,23 +111,23 @@ a {
 
   .container {
   margin-top: 40px;
-  margin-right: 120px;
+  /* margin-right: px; */
 
   }
 
   .btn {
     margin: 15px;
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    border: 4px solid black;
+    height: 120px;
+    width: 120px;
+    border: 7px solid black;
     border-radius: 20%;
   }
 
-  #click-btn {
+  /* #click-btn {
 
     margin-left: 10%;
-  }
+  } */
 
   footer {
     margin-top: 10%;
