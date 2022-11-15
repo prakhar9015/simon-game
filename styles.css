@@ -99,12 +99,12 @@ a {
 }
 
 
-@media (max-width: 1105px) {
+@media (max-width: 1104px) {
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3.2rem;
-    margin:  4%;
+    font-size: 3rem;
+    margin:  3.2%;
     color: #FEF2BF;
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -119,8 +119,8 @@ a {
   .btn {
     margin: 25px;
     display: inline-block;
-    height: 196px;
-    width: 196px;
+    height: 195px;
+    width: 195px;
     border: 5px solid black;
     border-radius: 20%;
   }
