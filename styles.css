@@ -22,7 +22,6 @@ body {
 
 .info-icon {
   color: grey;
-  /* color: #fff; */
   margin: 20px 10px;
   font-size: 1.1rem;
 }
@@ -148,8 +147,8 @@ a {
   .btn {
     margin: 19px;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 225px;
     border: 10px solid black;
     border-radius: 20%;
     /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3); */
@@ -169,5 +168,10 @@ a {
   a {
     text-decoration: none;
     color: #eeeeee;
+  }
+  .info-icon {
+    color: grey;
+    margin: 20px 20px;
+    font-size: 1rem;
   }
 }
