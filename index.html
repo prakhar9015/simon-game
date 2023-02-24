@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Simon</title>
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
+    <script
+      src="https://kit.fontawesome.com/6075ac6036.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-</head>
+  <body>
+    <h1 id="level-title">Click on start to Fire.</h1>
 
-<body>
-  <h1 id="level-title">Click on start to Fire.</h1>
+    <button id="click-btn">
+      <strong><em>start</em></strong
+      >🚀
+    </button>
 
+    <div class="container">
+      <div lass="row">
+        <div type="button" id="green" class="btn green"></div>
 
-
-  <button id="click-btn"><strong><em>start</em></strong>🚀</button>
-
-
-  <div class="container">
-    <div lass="row">
-
-      <div type="button" id="green" class="btn green">
-
+        <div type="button" id="red" class="btn red"></div>
       </div>
-
-      <div type="button" id="red" class="btn red">
-
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
       </div>
     </div>
-    <div class="row">
 
-      <div type="button" id="yellow" class="btn yellow">
+    <!--  -->
 
-      </div>
-      <div type="button" id="blue" class="btn blue">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- -->
+    <script src="index.js" charset="utf-8"></script>
 
-      </div>
-
-    </div>
-
-  </div>
-
-
-
-<!--  -->
-
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-     <!-- -->
-<script src="index.js" charset="utf-8"></script>
-
-<footer>
-  made with ❤️ by @<a href="https://prakhar9015.github.io/my-profile/">prakhar</a>
-</footer>
-
-</body>
-
+    <footer>
+      made with ❤️ by
+      <a href="https://prakhar9015.github.io/my-profile/">prakhar</a>
+      <br />
+      <a class="anchor-icon tweet" href="https://twitter.com/prakhar_hatim"
+        ><i class="info-icon fa-brands fa-twitter"></i
+      ></a>
+      <a
+        class="anchor-icon insta"
+        href="https://www.instagram.com/prakhar_hatim/"
+        ><i class="info-icon fa-brands fa-instagram"></i
+      ></a>
+      <a
+        class="anchor-icon linkd"
+        href="https://www.linkedin.com/in/prakhar-raj-4074ab1b2/"
+        ><i class="info-icon fa-brands fa-linkedin"></i
+      ></a>
+      <a class="anchor-icon mail" href="mailto:prakharraj9015@gmail.com"
+        ><i class="info-icon fa-solid fa-envelope"></i
+      ></a>
+    </footer>
+  </body>
 </html>
