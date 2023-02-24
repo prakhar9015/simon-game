@@ -1,20 +1,54 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #011f3f;
 }
 
+/* --------------------------- */
+.tweet :hover {
+  color: #00adb5;
+}
+
+.insta :hover {
+  color: #e11d74;
+}
+
+.linkd :hover {
+  color: #04009a;
+}
+
+.mail :hover {
+  color: #0dcaf0;
+}
+
+.info-icon {
+  color: grey;
+  /* color: #fff; */
+  margin: 20px 10px;
+  font-size: 1.1rem;
+}
+
+.anchor-icon :hover {
+  transform: scale(1.5);
+}
+
+.my-info {
+  text-decoration: none;
+}
+
+/* ---------------------------- */
+
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin: 5%;
+  color: #fef2bf;
 }
 
 .container {
   display: block;
-  width: 50%;
+  /* width: 50%; */
+  width: 90%;
   margin: auto;
-
 }
 
 .btn {
@@ -55,18 +89,16 @@ body {
 footer {
   font-size: 1.5rem;
   margin-top: 5%;
-  margin-bottom: 2% ;
-  color: #EEEEEE;
+  margin-bottom: 2%;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: "Indie Flower", cursive;
 }
 
 a {
   text-decoration: none;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
-
 
 #click-btn {
   position: absolute;
@@ -83,7 +115,7 @@ a {
   border-radius: 8px;
   font-family: Courier New;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   padding: 15px 25px 15px 25px;
   text-decoration: none;
 }
@@ -98,31 +130,30 @@ a {
   text-decoration: none;
 }
 
-
-@media (max-width: 1120px) {
-
+@media (max-width: 989px) {
   #level-title {
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P", cursive;
     font-size: 2.9rem;
-    margin:  3.1%;
-    color: #FEF2BF;
+    margin: 3.1%;
+    color: #fef2bf;
     padding-top: 3rem;
     padding-bottom: 5rem;
   }
 
   .container {
-  margin-top: 20rem;
-  /* margin-right: px; */
-
+    margin-top: 20rem;
+    /* margin-right: px; */
   }
 
   .btn {
     margin: 19px;
     display: inline-block;
-    height: 185px;
-    width: 185px;
-    border: 7px solid black;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
     border-radius: 20%;
+    /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3); */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
 
   /* #click-btn {
@@ -132,13 +163,11 @@ a {
 
   footer {
     margin-top: 10%;
-    margin-bottom: 2% ;
+    margin-bottom: 2%;
   }
 
   a {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #eeeeee;
   }
-
-
 }
